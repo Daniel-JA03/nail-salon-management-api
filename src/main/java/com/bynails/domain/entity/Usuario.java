@@ -1,13 +1,22 @@
 package com.bynails.domain.entity;
 
+import com.bynails.domain.entity.types.RolUsuario;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collation = "usuarios")
+@Document(collection = "usuarios")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Usuario {
     @Id
     private String id;
@@ -29,5 +38,5 @@ public class Usuario {
     private String password;
 
     @NotBlank(message = "El rol es obligatorio")
-    private String rol; // "ADMIN", "EMPLEADO", "CLIENTE"
+    private RolUsuario rol; // "ADMIN", "EMPLEADO", "CLIENTE"
 }
