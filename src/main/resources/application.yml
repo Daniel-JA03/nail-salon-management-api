@@ -1,0 +1,12 @@
+server:
+  port: ${PORT}
+spring:
+  application:
+    name: bynails-api
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/bynailsdb
+
+jwt:
+  secret: ${SECRET}
+  expiration: 36000000
