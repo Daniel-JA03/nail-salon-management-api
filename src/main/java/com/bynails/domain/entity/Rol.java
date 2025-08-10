@@ -15,6 +15,5 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Builder
 public class Rol {
     @Id
-    @Indexed(unique = true) // Evita roles duplicados
     private String nombre; // "ADMIN", "EMPLEADO", "CLIENTE"
 }
