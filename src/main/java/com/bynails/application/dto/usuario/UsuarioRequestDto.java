@@ -1,12 +1,10 @@
 package com.bynails.application.dto.usuario;
 
-import com.bynails.domain.entity.Rol;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
-import org.springframework.data.mongodb.core.index.Indexed;
 
 @Data
 public class UsuarioRequestDto {
