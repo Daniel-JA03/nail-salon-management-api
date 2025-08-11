@@ -1,6 +1,6 @@
 package com.bynails.application.dto.cita;
 
-import com.bynails.application.dto.ClienteCita.ClienteCitaResponseDto;
+import com.bynails.application.dto.clienteCita.ClienteCitaResponseDto;
 import com.bynails.application.dto.pago.PagoResponseDto;
 import com.bynails.application.dto.servicioCita.ServicioCitaResponseDto;
 import com.bynails.application.dto.usuario.UsuarioResponseDto;
