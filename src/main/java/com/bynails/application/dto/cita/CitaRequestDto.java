@@ -1,13 +1,8 @@
 package com.bynails.application.dto.cita;
 
-import com.bynails.application.dto.ClienteCita.ClienteCitaRequestDto;
+import com.bynails.application.dto.clienteCita.ClienteCitaRequestDto;
 import com.bynails.application.dto.pago.PagoRequestDto;
 import com.bynails.application.dto.servicioCita.ServicioCitaRequestDto;
-import com.bynails.domain.entity.ClienteCita;
-import com.bynails.domain.entity.Pago;
-import com.bynails.domain.entity.ServicioCita;
-import com.bynails.domain.entity.Usuario;
-import com.bynails.domain.entity.types.EstadoCita;
 import com.bynails.domain.entity.types.TipoAtencion;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Future;

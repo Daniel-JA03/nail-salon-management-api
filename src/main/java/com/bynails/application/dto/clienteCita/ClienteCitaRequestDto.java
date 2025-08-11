@@ -1,4 +1,4 @@
-package com.bynails.application.dto.ClienteCita;
+package com.bynails.application.dto.clienteCita;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

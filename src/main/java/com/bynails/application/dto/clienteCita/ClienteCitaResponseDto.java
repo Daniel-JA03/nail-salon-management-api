@@ -1,4 +1,4 @@
-package com.bynails.application.dto.ClienteCita;
+package com.bynails.application.dto.clienteCita;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
